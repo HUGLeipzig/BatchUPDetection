@@ -2,11 +2,11 @@
 
 // start pipeline as: 
 // nextflow run scripts/batchUPdetection.nf \
-// --family_files /mnt/c/data/Git/BatchUPDetection/01_get_data/01_vcfs/varvis_twist_combined_families.csv \
-// --vcf_folder /mnt/c/data/Git/BatchUPDetection/01_get_data/01_vcfs/ \
-// --outdir_roh /mnt/c/data/Git/BatchUPDetection/02_batch_vcf_processing/roh/ \
-// --outdir_isec /mnt/c/data/Git/BatchUPDetection/02_batch_vcf_processing/isec/ \
-// --outdir_results /mnt/c/data/Git/BatchUPDetection/03_tagging_and_visualisation/ \
+// --family_files families.csv \
+// --vcf_folder vcfs/ \
+// --outdir_roh roh/ \
+// --outdir_isec isec/ \
+// --outdir_results tagging_and_visualisation/ \
 
 project_dir = projectDir
 
