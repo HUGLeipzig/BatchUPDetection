@@ -1,0 +1,5 @@
+pandas
+altair
+cyvcf2
+multiprocess
+openpyxl

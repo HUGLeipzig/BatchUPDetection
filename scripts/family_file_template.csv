@@ -1,0 +1,6 @@
+index_file,mother_file,father_file
+index1.vcf.gz,mother1.vcf.gz,father1.vcf.gz
+index2.vcf.gz,mother2.vcf.gz,
+index3.vcf.gz,,
+index4.vcf.gz,,father4.vcf.gz
+index5.vcf.gz,mother5.vcf.gz,father5.vcf.gz
