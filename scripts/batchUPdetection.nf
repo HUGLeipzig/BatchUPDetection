@@ -33,7 +33,7 @@ process roh_for_index {
 
     script:
         """
-        bcftools roh --AF-dflt 0.4 -I ${params.vcf_folder}${index_vcf} | awk '\$1=="RG"{print \$0}' > ${index_vcf}_roh.txt
+        bcftools roh --AF-dflt 0.4 -G 30 -I ${params.vcf_folder}${index_vcf} | awk '\$1=="RG"{print \$0}' > ${index_vcf}_roh.txt
         """
 }
 

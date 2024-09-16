@@ -1,3 +1,9 @@
 
 *.gz
 *.tbi
+*.log
+/.nextflow
+/01_get_data
+/02_batch_vcf_processing
+/03_tagging_and_visualisation
+/work
